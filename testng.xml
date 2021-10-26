@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/Eclipse_Workspace/PenskeTruckBusiness/src/test/java/com/Penske/Script/Test_HomePage.java">
+        <classes>
+            <class name="com.Penske.Script.Test_HomePage">
+                <methods>
+                    <include name="TC_002"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="E:/Eclipse_Workspace/PenskeTruckBusiness/src/test/java/com/Penske/Script/Test_HomePageLeasing.java">
+        <classes>
+            <class name="com.Penske.Script.Test_HomePageLeasing">
+                <methods>
+                    <include name="Tc_003"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

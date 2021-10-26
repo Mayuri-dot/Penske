@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="E:/Eclipse_Workspace/PenskeTruckBusiness(failed)">
+    <classes>
+      <class name="com.Penske.Script.Test_HomePageLeasing">
+        <methods>
+          <include name="open_Browser"/>
+          <include name="Tc_003"/>
+        </methods>
+      </class> <!-- com.Penske.Script.Test_HomePageLeasing -->
+      <class name="com.Penske.Script.Test_HomePage">
+        <methods>
+          <include name="open_Browser"/>
+          <include name="TC_002"/>
+        </methods>
+      </class> <!-- com.Penske.Script.Test_HomePage -->
+    </classes>
+  </test> <!-- E:/Eclipse_Workspace/PenskeTruckBusiness(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
